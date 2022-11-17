@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <h1>Welcome to my Welcome</h1>
+
+    <a href="indext.html"> Index </a>
+    <a href="Form.html" target="_blank"> form </a><br />
+    <a href="aboubtus.html"> About us </a><br />
+
+    <form>
+      <lable> First Name </lable>
+      <input type="text" value="Sayali" disabled />
+
+      <lable> Last Name </lable>
+      <input type="text" value="Lohot" required /><br />
+      <lable> Email Id</lable>
+      <input type="text" />
+      <lable>Phone Number</lable>
+      <input type="number" /><br />
+      <!--number-->
+      <lable> DOB </lable>
+      <input type="date" />
+      <!--date-->
+      <lable>Meeting Date and Time</lable>
+      <input type="datetime" />
+      <!--datetime-->
+      <input type="datetime-local" /> <br />
+      <lable>Gender :</lable>
+      <!--radio-->
+      Male<input type="radio" name="Gender" /> Female<input
+        type="radio"
+        name="Gender"
+      /><br />
+      <lable>Favorite Language :</lable>
+      <!--checkbox-->
+      Html<input type="checkbox" name="favlang" /> CSS
+      <input type="checkbox" name="favlang" /> Javascrift
+      <input type="checkbox" name="favlang" /> Node
+      <input type="checkbox" name="favlang" />
+      <lable>Select time </lable>
+      <input type="time" />
+      <!--time-->
+      <lable> URL </lable>
+      <input type="url" />
+      <!--url-->
+      <lable>Upload the file </lable>
+      <input type="file" /><br />
+      <!--file-->
+      <lable>Password</lable>
+      <input type="password" />
+      <!--password-->
+      <label> Pick a color</label>
+      <input type="color" /> <br />
+      <label> Selcet a range </label>
+      <input type="range" min="1" max="100" /><br />
+      <input type="button" value="Submit" />
+      <button type="submit">Submit Button</button>
+      <button type="button">simple Button</button>
+      <button type="reset">reset Button</button>
+      <fieldset>
+        <legend>How was your experience</legend>
+        <input type="radio" name="exp" value="1" /> 1
+        <input type="radio" name="exp" value="2" /> 2
+        <input type="radio" name="exp" value="3" /> 3
+        <input type="radio" name="exp" value="4" /> 4
+        <input type="radio" name="exp" value="5" /> 5
+      </fieldset>
+      <!-- Input tag-->
+      <h1>Select some Option</h1>
+      <select name="subject">
+        <option value="History">History</option>
+        <option value="Geography">Geography</option>
+        <option value="Maths">Maths</option>
+        <option value="English">English</option>
+      </select><br> <br>
+      <lable> Text area</lable><br>
+      <textarea name="message" required cols="100" rows="5"> </textarea>
+    </form>
+  </body>
+</html>
